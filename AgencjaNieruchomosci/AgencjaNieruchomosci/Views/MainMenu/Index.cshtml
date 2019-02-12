@@ -1,0 +1,32 @@
+﻿<link href="~/CSS/Css1.css" rel="stylesheet" />
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="CentrowanieStrony">
+    <div class="LewaStronaZObrazkiem" style="background-image: url('../../IMG/budynki.png'); background-repeat: repeat-y">
+        
+    </div>
+    <div class="NaglowekStrony">
+        <h1>Nieruchomości</h1>
+    </div>
+    <div class="SeparatorNaglowka"></div>
+    <div class="TrescStrony">
+        <br />
+        <br />
+        <p>@Html.ActionLink("Przejście do przeszukiwania ofert", "Index", "Poszukiwanie")</p>
+        <br />
+        <br />
+        Wpisz znany ci indeks nieruchomości poniżej i kliknij dalej
+        <br />  
+        <form action="cos" method="post">
+            <input id="Text1" name="szukane" type="text" />
+            <br />
+            <br />
+            <input type="submit" value="Dalej" />
+        </form>
+        
+    </div>
+</div>
+
+

@@ -1,0 +1,125 @@
+﻿body {
+}
+
+/* POP UP 
+
+    <div class="custompopup" id="divThankYou" runat="server">
+        <p>
+            <asp:Label ID="lblmessage" runat="server"></asp:Label>
+        </p>
+        <asp:Button ID="ButtonPopUp" CssClass="classname leftpadding" runat="server" Text="Ok" OnClick="ButtonPopUp_Click1" />
+    </div>
+
+*/
+
+.custompopup {
+    background-color: #fff;
+    border: 3px solid #fff;
+    display: inline-block;
+    left: 50%;
+    padding: 15px;
+    position: fixed;
+    text-align: justify;
+    top: 40%;
+    z-index: 10;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+    -moz-box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+    -webkit-transition: opacity .5s, top .5s;
+    -moz-transition: opacity .5s, top .5s;
+    -o-transition: opacity .5s, top .5s;
+}
+
+    .custompopup p, .custompopup div {
+        margin-bottom: 10px;
+    }
+
+    .custompopup label {
+        display: inline-block;
+        text-align: left;
+        width: 120px;
+    }
+
+    .custompopup input[type="text"], .custompopup input[type="password"] {
+        border: 1px solid;
+        border-color: #999 #ccc #ccc;
+        margin: 0;
+        padding: 2px;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        border-radius: 2px;
+    }
+
+        .custompopup input[type="text"]:hover, .custompopup input[type="password"]:hover {
+            border-color: #555 #888 #888;
+        }
+
+.CentrowanieStrony {
+    margin: auto;
+    width: 1000px;
+    height: 743px;
+}
+
+.LewaStronaZObrazkiem {
+    float: left;
+    width: 200px;
+    min-height: 1000px;
+    height: 732px;
+}
+
+.NaglowekStrony {
+    height: 50x;
+    width: 800px;
+    text-align:center;    
+}
+
+.SeparatorNaglowka {
+    height: 10px;
+    width: 800px;
+    background-color: grey;
+}
+
+.TrescStrony {
+    width: 780px;
+    margin-left: 220px;
+}
+
+.CentrowanieLewa {
+    float:left;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.CentrowaniePrawa {
+    float: left;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.DystansPionowy {
+    
+    width:370px;
+    height: 50px;
+    float:left;
+}
+
+.KontenerDomLabel2 {
+    height: 50px;
+    width: 780px;
+    max-width: 780px;
+}
+
+.KontenerDomLabel3 {
+    height: auto;
+}
+
+.DystansPionowy2 {
+    width: 115px;
+    height: 50px;
+    float: left;
+}

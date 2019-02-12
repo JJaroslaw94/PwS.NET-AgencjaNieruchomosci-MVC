@@ -1,0 +1,90 @@
+﻿
+@{
+    ViewBag.Title = "Sukces";
+}
+
+<link href="~/CSS/Css1.css" rel="stylesheet" />
+
+<!--<p>@ViewBag.Wiadomosc</p>
+
+<input id="Button1" type="button" value="Wróć" onclick="location.href='@Url.Action("Index", "Dom")'" />-->
+
+<div class="CentrowanieStrony">
+    <div class="LewaStronaZObrazkiem" style="background-image: url('../../IMG/budynki.png'); background-repeat: repeat-y">
+
+    </div>
+    <div class="NaglowekStrony">
+        <h1 id="NaglowekStronyDomu" runat="server">@ViewBag.HLCN</h1>
+    </div>
+    <div class="SeparatorNaglowka"></div>
+    <div class="TrescStrony">
+        <div class="KontenerDomLabel2">
+
+            <div class="DystansPionowy">
+                @ViewBag.HousePrice
+            </div>
+            @ViewBag.HomeLocation
+        </div>
+        <br />
+
+        <div class="KontenerDomLabel2">
+            <div class="DystansPionowy">
+                @ViewBag.BathRooms
+            </div>
+            @ViewBag.BedRooms
+        </div>
+        <br />
+
+        <div class="KontenerDomLabel2">
+            <div class="DystansPionowy">
+                @ViewBag.ContactName
+            </div>
+            @ViewBag.Email
+        </div>
+        <br />
+
+        <div class="KontenerDomLabel2">
+            <div class="DystansPionowy">
+                @ViewBag.Phone
+            </div>
+            @ViewBag.Addres
+        </div>
+        <br />
+
+        <div class="KontenerDomLabel2">
+            <div class="DystansPionowy">
+                @ViewBag.SqFe
+            </div>
+            @ViewBag.YB
+        </div>
+        <br />
+
+        <div class="KontenerDomLabel2">
+            <div class="DystansPionowy">
+                @ViewBag.LS
+            </div>
+            @ViewBag.Ga
+        </div>
+        <br />
+
+        <div class="KontenerDomLabel2">
+
+            @ViewBag.Note
+        </div>
+        <br />
+
+        
+       
+        
+        
+        
+        
+       
+       
+        
+        
+        
+        
+        
+    </div>
+</div>

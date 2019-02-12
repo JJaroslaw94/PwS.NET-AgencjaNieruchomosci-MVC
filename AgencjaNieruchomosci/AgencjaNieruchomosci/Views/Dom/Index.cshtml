@@ -1,0 +1,81 @@
+﻿<link href="~/CSS/Css1.css" rel="stylesheet" />
+
+<div class="CentrowanieStrony">
+    <div class="LewaStronaZObrazkiem" style="background-image: url('../../IMG/budynki.png'); background-repeat: repeat-y">
+
+    </div>
+    <div class="NaglowekStrony">
+        <h1 id="NaglowekStronyDomu" runat="server">Dom - bląd</h1>
+    </div>
+    <div class="SeparatorNaglowka"></div>
+    <div class="TrescStrony">
+        <div class="KontenerDomLabel2">
+
+            <div class="DystansPionowy">
+                <asp:Label ID="Label1" class="CentrowanieLewa" runat="server" Text="Label"></asp:Label>
+            </div>
+            <asp:Label ID="Label7" class="CentrowaniePrawa" runat="server" Text="Label"></asp:Label>
+        </div>
+        <br />
+
+        <div class="KontenerDomLabel2">
+            <div class="DystansPionowy">
+                <asp:Label ID="Label2" class="CentrowanieLewa" runat="server" Text="Label"></asp:Label>
+            </div>
+            <asp:Label ID="Label8" class="CentrowaniePrawa" runat="server" Text="Label"></asp:Label>
+        </div>
+        <br />
+
+        <div class="KontenerDomLabel2">
+            <div class="DystansPionowy">
+                <asp:Label ID="Label3" class="CentrowanieLewa" runat="server" Text="Label"></asp:Label>
+            </div>
+            <asp:Label ID="Label9" class="CentrowaniePrawa" runat="server" Text="Label"></asp:Label>
+        </div>
+        <br />
+
+        <div class="KontenerDomLabel2">
+            <div class="DystansPionowy">
+                <asp:Label ID="Label4" class="CentrowanieLewa" runat="server" Text="Label"></asp:Label>
+            </div>
+            <asp:Label ID="Label10" class="CentrowaniePrawa" runat="server" Text="Label"></asp:Label>
+        </div>
+        <br />
+
+        <div class="KontenerDomLabel2">
+            <div class="DystansPionowy">
+                <asp:Label ID="Label5" class="CentrowanieLewa" runat="server" Text="Label"></asp:Label>
+            </div>
+            <asp:Label ID="Label11" class="CentrowaniePrawa" runat="server" Text="Label"></asp:Label>
+        </div>
+        <br />
+
+        <div class="KontenerDomLabel2">
+            <div class="DystansPionowy">
+                <asp:Label ID="Label6" class="CentrowanieLewa" runat="server" Text="Label"></asp:Label>
+            </div>
+            <asp:Label ID="Label12" class="CentrowaniePrawa" runat="server" Text="Label"></asp:Label>
+        </div>
+        <br />
+
+        <div class="KontenerDomLabel2">
+
+            <textarea id="TextArea1" rows="2" cols="250"></textarea>
+        </div>
+        <br />
+
+        <div>
+            <asp:DataList ID="DataList1" runat="server" RepeatDirection="Horizontal">
+                <ItemTemplate>
+
+                    <img src="<%#Eval(" IMAGE_PATH") %>" height="100px" width="100px"/>
+
+                </ItemTemplate>
+            </asp:DataList>
+        </div>
+        <br />
+        <div>
+            <asp:Button ID="Button1" runat="server" Text="Wróć" OnClick="Button1_Click" />
+        </div>
+    </div>
+</div>
